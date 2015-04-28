@@ -1,0 +1,19 @@
+{
+    "name": "sam-it/yii1-json-behavior",
+    "description": "Behavior for encoding model attribute(s) to json.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sam",
+            "email": "sam@mousa.nl"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4" : {
+            "SamIT\\Yii1\\Behaviors\\" : [
+                "src/"
+            ]
+        }
+    }
+}
