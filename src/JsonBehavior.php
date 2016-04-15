@@ -54,7 +54,7 @@
 			{
 				if (!is_string($key))
 				{
-					$this->owner->$attribute = json_decode($this->owner->$attribute);
+					$this->owner->$attribute = json_decode($this->owner->$attribute, true);
 				}
 			}
 			return true;
