@@ -26,7 +26,9 @@
 				}
 				else
 				{
-					$this->owner->$attribute = json_encode($this->owner->$attribute);
+					if (isset($this->owner->$attribute)) {
+						$this->owner->$attribute = json_encode($this->owner->$attribute);	
+					}
 				}
 			}
 			return true;
